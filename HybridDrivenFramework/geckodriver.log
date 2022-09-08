@@ -1,0 +1,24 @@
+1661771301825	geckodriver	INFO	Listening on 127.0.0.1:33407
+1661771304915	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "33408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilecqKVpP"
+1661771306540	Marionette	INFO	Marionette enabled
+1661771306553	Marionette	INFO	Listening on port 33417
+WebDriver BiDi listening on ws://localhost:33408
+Read port: 33417
+1661771306883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilecqKVpP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33408/devtools/browser/f4df4e57-4ff1-47d7-81b6-21774feaec0d
+1661771313605	Marionette	INFO	Stopped listening on port 33417
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\HP\AppData\Local\Temp\rust_mozprofilecqKVpP\protections.sqlite
+1661771314702	geckodriver	INFO	Listening on 127.0.0.1:33456
+1661771317728	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "33457" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileNalceI"
+1661771318344	Marionette	INFO	Marionette enabled
+1661771318357	Marionette	INFO	Listening on port 33466
+WebDriver BiDi listening on ws://localhost:33457
+Read port: 33466
+1661771318652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileNalceI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33457/devtools/browser/1a2abd94-a0ca-41d9-a4ce-c87fa0a8f5e3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://opensource-demo.orangehrmlive.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://opensource-demo.orangehrmlive.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1661771330111	Marionette	INFO	Stopped listening on port 33466
